@@ -2,16 +2,22 @@
     margin: 0;
     padding: 0;
 }
-.main{
+
+body {
     background-color: rgba(0, 0, 255, 0.247);
-    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
+}
+
+.main{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 50px rgba(0, 0, 255, 0.247);
+    padding: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-}
-.main textarea{
-    width: 500px;
-    height: 30px;
+    border-radius: 20px;
+    gap: 20px;
 }
