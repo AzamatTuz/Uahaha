@@ -23,6 +23,15 @@ body {
     gap: 20px;
 }
 
+#text{
+    width: 500px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    background: none;
+}
+
 .invise{
 
     position: absolute;
@@ -39,6 +48,5 @@ body {
     row-gap: 20px;
 
 }
-
 
 
