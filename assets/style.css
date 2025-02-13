@@ -38,11 +38,16 @@ header {
     outline: none;
     border-bottom: 3px solid rgba(0, 0, 255, 0.247);
     resize: none;
-    padding: 5px;
+    padding: 0 15px;
     color: rgb(0, 0, 0);
     font-size: 18px;
 }
 
 #text::placeholder {
+    color: rgba(0, 0, 255, 0.247);
+}
+
+h1 {
+    text-align: center;
     color: rgba(0, 0, 255, 0.247);
 }
