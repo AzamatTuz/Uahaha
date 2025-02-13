@@ -2,12 +2,21 @@
     margin: 0;
     padding: 0;
 }
-.main{
+
+body {
     background-color: rgba(0, 0, 255, 0.247);
+
     height: 100vh;
+}
+
+.main{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 50px rgba(0, 0, 255, 0.247);
+    padding: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+
     align-items: center;
 }
 #text{

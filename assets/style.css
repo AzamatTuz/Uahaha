@@ -8,10 +8,14 @@
 }
 
 header {
+    background: #fff;
     display: flex;
     align-items: center;
     box-shadow: 0 0 10px #cecece;
     justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
 .logo {
@@ -24,4 +28,21 @@ header {
     color: black;
     font-size: 18px;
     margin: 10px;
+}
+
+#text {
+    width: 500px;
+    height: 30px;
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid rgba(0, 0, 255, 0.247);
+    resize: none;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+
+#text::placeholder {
+    color: rgba(0, 0, 255, 0.247);
 }
