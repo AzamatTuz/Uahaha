@@ -5,29 +5,13 @@
 
 body {
     background-color: rgba(0, 0, 255, 0.247);
-
     height: 100vh;
 }
 
 .main{
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0 0 50px rgba(0, 0, 255, 0.247);
-    padding: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    align-items: center;
-}
-#text{
-    width: 500px;
-    height: 30px;
-    border: none;
-    outline: none;
-    border-bottom: 1px solid black;
-    background: none;
-}
-.invise{
+    position: absolute;
+    top: 250px;
+    left: 500px;
     width: 600px;
     height: 250px;
     border-radius: 12px;
@@ -37,9 +21,19 @@ body {
     align-items: center;
     background-color: rgb(255, 255, 255);
     row-gap: 20px;
+
 }
+#text{
+    width: 500px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    background: none;
+}
+
 #length{
     position: relative;
-    left: -200px;
+    left: -190px;
     color: brown;
 }
