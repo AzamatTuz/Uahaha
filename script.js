@@ -4,6 +4,9 @@ let textLength = 0;
 
 text.addEventListener('input', () => {
 
-    length.textContent = `Text Symbols: ${text.value.trim()}` 
+    length.textContent = `Text words: ${wordCount(text.value.trim())}` 
 
 });
+function wordCount(str){
+    return str.split(" ").length
+}
