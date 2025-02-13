@@ -16,19 +16,17 @@
     border: none;
     outline: none;
     border-bottom: 1px solid black;
-
     background: none;
 }
 .invise{
-    box-shadow: 2px 2px 10px blueviolet;
     width: 600px;
     height: 250px;
-    border-radius: 7px;
+    border-radius: 12px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(255, 255, 255, 0.451);
+    background-color: rgb(255, 255, 255);
     row-gap: 20px;
 }
 #length{
